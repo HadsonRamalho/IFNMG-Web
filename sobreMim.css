@@ -1,0 +1,15 @@
+.titulos{
+    font-size: 30px;
+    background-color: #98ff98;
+    width: 1250px;
+}
+
+.descricoes{
+    font-size: 25px;
+    width: 1200px;
+    background-color: #D3D3D3;
+}
+
+.lista{
+    background-color: #98ff98;
+}
