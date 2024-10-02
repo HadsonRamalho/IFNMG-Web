@@ -3,7 +3,9 @@ body {
     display: grid;
     place-items: center; 
     height: 100vh; 
+    margin: 0;
     background-color: #e9ecef; 
+    
 }
 .container{
     width: 50%;
@@ -11,7 +13,9 @@ body {
     padding: 20px; 
     text-align: center; 
     border-radius: 10px;
+    
 }
+
 ul {
     list-style-type: none;
     margin-top: 30px;
@@ -34,23 +38,4 @@ li a {
 li a:hover {
     background-color: #555;
     color: white;
-}
-h2{
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 30px;
-    
-}
-.contact{
-    text-align: center;
-    padding: 20px;
-    
-}
-a{
-    color: black;
-    text-decoration: none;
-}
-a:hover{
-    color: rgb(86, 83, 83);
-    cursor: pointer;
 }
