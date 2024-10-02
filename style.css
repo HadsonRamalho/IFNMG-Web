@@ -1,20 +1,70 @@
-body{
-    background-color: rgb(250, 248, 248);
-}
-div{
-    background-color: rgb(178, 170, 170);
-    text-align: center;
+body {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
-    border-radius: 5px;
-}
-a{
-    text-decoration: none;
-    color: black;
+    display: grid;
+    place-items: center; 
+    height: 100vh; 
+    margin: 0;
+    background-color: #e9ecef; 
     
 }
-a:hover{
-    color: rgb(8, 8, 8);
-    text-decoration: underline;
+.container{
+    width: 50%;
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    text-align: center; 
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    
+    display: flex;
+    justify-content:space-around;
+}
+  
+li a {
+    display: flex;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
+  
+  
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+h2{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+
+/* contatos */
+
+.contact{
+    
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(86, 83, 83);
+    cursor: pointer;
+}
